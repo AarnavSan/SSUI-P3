@@ -8,3 +8,5 @@ The video game character controller is a custom FSM interactor aimed to emulate 
 - Hover over double arrows to "walk" in a direction.
 - Hover in the centre to reach an "Idle Stage"
 - It "saves" the state you were in when exiting outside a traditional control
+
+![alt text](https://github.com/AarnavSan/SSUI-P3/blob/main/website-image.png?raw=true)
