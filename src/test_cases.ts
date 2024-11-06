@@ -27,7 +27,7 @@ export function runTests() {
 
 	test1();
 	test2();
-	//test3();
+	test3();
 	test4();
 
 	console.log("Test is set up...");
@@ -78,7 +78,7 @@ function test3() {
 
 // Custom Interactor - Character Controller - FSM Interactor object from a .json file.
 function test4() {
-	let fsmInt = new FSMInteractor(undefined, 400,0);
+	let fsmInt = new FSMInteractor(undefined, 1000,0);
 	root.addChild(fsmInt);
 	fsmInt.startLoadFromJson("./fsm_json/character_controller.json");
 }
