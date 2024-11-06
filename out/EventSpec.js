@@ -43,9 +43,6 @@ export class EventSpec {
                 return;
             }
         }
-        // if we get here, we didn't find a matching region
-        //So we set _region to undefined
-        this._region = undefined;
         // we didn't match any region, that's ok for some forms that don't need a region
         if (this.evtType === 'nevermatch')
             return;
